@@ -70,29 +70,53 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add Inbound.Designer.vb">
-      <DependentUpon>Add Inbound.vb</DependentUpon>
+    <Compile Include="Add Shipment.Designer.vb">
+      <DependentUpon>Add Shipment.vb</DependentUpon>
     </Compile>
-    <Compile Include="Add Inbound.vb">
+    <Compile Include="Add Shipment.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Deliveries.Designer.vb">
-      <DependentUpon>Deliveries.vb</DependentUpon>
+    <Compile Include="Clerk.Designer.vb">
+      <DependentUpon>Clerk.vb</DependentUpon>
     </Compile>
-    <Compile Include="Deliveries.vb">
+    <Compile Include="Clerk.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Home.vb">
+    <Compile Include="Driver.Designer.vb">
+      <DependentUpon>Driver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Driver.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Home.Designer.vb">
-      <DependentUpon>Home.vb</DependentUpon>
+    <Compile Include="HR.Designer.vb">
+      <DependentUpon>HR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HR.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manage Employee.Designer.vb">
-      <DependentUpon>Manage Employee.vb</DependentUpon>
+    <Compile Include="Manage Deliveries.Designer.vb">
+      <DependentUpon>Manage Deliveries.vb</DependentUpon>
     </Compile>
-    <Compile Include="Manage Employee.vb">
+    <Compile Include="Manage Deliveries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage Employees.Designer.vb">
+      <DependentUpon>Manage Employees.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manage Employees.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage Shipments.Designer.vb">
+      <DependentUpon>Manage Shipments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manage Shipments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -112,23 +136,35 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Add Inbound.resx">
-      <DependentUpon>Add Inbound.vb</DependentUpon>
+    <EmbeddedResource Include="Add Shipment.resx">
+      <DependentUpon>Add Shipment.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Deliveries.resx">
-      <DependentUpon>Deliveries.vb</DependentUpon>
+    <EmbeddedResource Include="Clerk.resx">
+      <DependentUpon>Clerk.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Home.resx">
-      <DependentUpon>Home.vb</DependentUpon>
+    <EmbeddedResource Include="HR.resx">
+      <DependentUpon>HR.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manage Employee.resx">
-      <DependentUpon>Manage Employee.vb</DependentUpon>
+    <EmbeddedResource Include="Manage Deliveries.resx">
+      <DependentUpon>Manage Deliveries.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage Employees.resx">
+      <DependentUpon>Manage Employees.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage Shipments.resx">
+      <DependentUpon>Manage Shipments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Driver.resx">
+      <DependentUpon>Driver.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
